@@ -1,5 +1,5 @@
 version: '2'
 services:
   hello:
-    image: node:7-alpine
+    image: arm32v7/node:7
     command: node -e '${COMMAND}'

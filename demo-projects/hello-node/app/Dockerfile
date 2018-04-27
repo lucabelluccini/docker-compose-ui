@@ -1,4 +1,4 @@
-FROM node:7-alpine
+FROM arm32v7/node:7
 
 EXPOSE 1337
 

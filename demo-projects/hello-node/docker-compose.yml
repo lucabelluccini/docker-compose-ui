@@ -5,6 +5,6 @@ services:
     build:
       context: app
       cache_from:
-      - node:7-alpine
+      - arm32v7/node:7
     ports:
     - "1337:1337"

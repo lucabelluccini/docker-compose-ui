@@ -13,7 +13,7 @@ services:
       timeout: 30m
       retries: 1
   redis:
-    image: redis:3.2-alpine
+    image: arm32v7/redis:3.2
     networks:
       - network_with_label
 

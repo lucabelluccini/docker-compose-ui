@@ -1,7 +1,7 @@
 version: '2'
 services:
-  alpine:
-    image: alpine
+  ubuntu:
+    image: arm32v7/ubuntu
     command: ls -la /tmp/
     volumes:
     - ./tmp/:/tmp/:ro
